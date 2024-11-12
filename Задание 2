@@ -1,0 +1,16 @@
+<?php
+//Функция для вычисления длины строки
+function getStringLength(string $inputString): int 
+{
+    return strlen($inputString);
+}
+//Функция для получения строки
+function displayStringLength(int $length): string 
+{
+    return "Длина строки: $length\n";
+}
+$inputString = "Lit Energy";
+$length = getStringLength($inputString);
+$result = displayStringLength($length);
+echo $result;
+?>
