@@ -1,6 +1,6 @@
 <?php
 //Функция для округления элементов массива
-function roundArrayElements($array): string 
+function ocruglArray($array): string 
 {
     //Округление
     $roundedArray = array_map('round', $array);
@@ -8,6 +8,6 @@ function roundArrayElements($array): string
 }
 // Массив
 $numbers = [1.35, 2.5, 8.49, 9.6];
-$roundedNumbers = roundArrayElements($numbers);
+$roundedNumbers = ocruglArray($numbers);
 echo "Округленные числа: " . $roundedNumbers . "\n";
 ?>
