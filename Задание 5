@@ -1,12 +1,12 @@
 <?php
 //Функция для первых букв
-function checkFirstLetters($word1, $word2) {
+function firstBukva($word1, $word2) {
     return mb_substr($word1, 0, 1) === substr($word2, 0, 1);
 }
 $word1 = "Медведь"; 
 $word2 = "Мазут";   
 //Проверка для совпадения букв
-if (checkFirstLetters($word1, $word2)) {
+if (firstBukva($word1, $word2)) {
     echo "Первые буквы слов совпадают.\n";
 } else {
     echo "Первые буквы слов не совпадают.\n";
