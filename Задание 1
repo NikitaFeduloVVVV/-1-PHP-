@@ -1,9 +1,12 @@
 <?php
 //Функция для проверки отрицательного и неотрицательного числа
-function checkIfNegative(float $number) : void {
-    if ($number < 0) {
+function checkIfNegative(float $number) : void 
+{
+    if ($number < 0) 
+    {
         echo "Число $number является отрицательным.";
-    } else {
+    } else 
+    {
         echo "Число $number не является отрицательным.";
     }
 }
