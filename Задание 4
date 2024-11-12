@@ -1,0 +1,11 @@
+<?php
+//Функция для проверки четности
+function isEven($number): string
+{
+    return $number % 2 === 0 ? "$number является четным числом." :
+    	"$number является нечетным числом.";
+}
+$number = 10;
+$result = isEven($number);
+echo $result . "\n";
+?>
