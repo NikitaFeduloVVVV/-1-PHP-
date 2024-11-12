@@ -1,6 +1,6 @@
 <?php
 //Функция для проверки отрицательного и неотрицательного числа
-function checkIfNegative(float $number) : void 
+function otrChislo(float $number) : void 
 {
     if ($number < 0) 
     {
@@ -11,6 +11,6 @@ function checkIfNegative(float $number) : void
     }
 }
 
-$numberToCheck = -1.25376253725737523;
-checkIfNegative($numberToCheck);
+$numberotr = -1.25376253725737523;
+otrChislo($numberotr);
 ?>
