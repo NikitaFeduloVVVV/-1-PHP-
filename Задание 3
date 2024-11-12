@@ -1,0 +1,24 @@
+<?php
+//Функция для получения последнего символа
+function getLastCharacter($inputString) 
+{
+    //Проверка не пустой строки
+    if (strlen($inputString) > 0) 
+    {
+        return $inputString[strlen($inputString) - 1];
+    } else 
+    {
+        return null; 
+    }
+}
+$inputString = "Nasha Rasha"; 
+$lastCharacter = getLastCharacter($inputString);
+//Проверка наличие последнего символа
+if ($lastCharacter !== null) 
+{
+    echo "Последний символ строки: $lastCharacter\n";
+} else 
+{
+    echo "Строка пуста.\n";
+}
+?>
