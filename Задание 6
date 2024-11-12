@@ -1,0 +1,12 @@
+<?php
+//Функция для получения первой цифры
+function firstNumber($number) 
+{
+    $numberString = (string)$number;
+    return $numberString[0];
+}
+$number = 88005553535; 
+//Получение первой цифры
+$firsthap = firstNumber($number);
+echo "Первая цифра числа: $firsthap\n";
+?>
