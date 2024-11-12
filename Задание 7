@@ -1,0 +1,16 @@
+<?php
+//Функция для предпоследнего символа
+function perdSimvol($string) 
+{
+    if (strlen($string) > 1) 
+    {
+        //Препоследний символ
+        return $string[strlen($string) - 2];
+    } else {
+        return "Строка должна содержать более одного символа.";
+    }
+}
+$string = "Ochki nnnnnaaada"; 
+$result = perdSimvol($string);
+echo $result;
+?>
