@@ -1,6 +1,6 @@
 <?php
 //Функция для получения последнего символа
-function getLastCharacter($inputString) 
+function lastSimvol($inputString) 
 {
     //Проверка не пустой строки
     if (strlen($inputString) > 0) 
@@ -12,11 +12,11 @@ function getLastCharacter($inputString)
     }
 }
 $inputString = "Nasha Rasha"; 
-$lastCharacter = getLastCharacter($inputString);
+$lastSim = lastSimvol($inputString);
 //Проверка наличие последнего символа
-if ($lastCharacter !== null) 
+if ($lastSim !== null) 
 {
-    echo "Последний символ строки: $lastCharacter\n";
+    echo "Последний символ строки: $lastSim\n";
 } else 
 {
     echo "Строка пуста.\n";
